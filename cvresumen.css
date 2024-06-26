@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#form-section,
+#resume-section {
+    flex: 1;
+    padding: 20px;
+}
+
+#form-section {
+    border-right: 1px solid #ddd;
+}
+
+#form-section h1,
+#resume-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#resume-output p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+.list-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+.handle {
+    cursor: move;
+    margin-right: 10px;
+    padding: 5px;
+   
+}
+.accordion-header{text-align: end;}
+.educacion{    margin: 10px 0;
+    padding: 20px;
+    background: #f9f9f9;}
